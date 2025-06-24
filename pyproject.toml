@@ -14,7 +14,8 @@ dependencies = [
     "metatrader5 (>=5.0.5120,<6.0.0)",
     "tomli (>=2.2.1,<3.0.0)",
     "python-dotenv (>=1.1.0,<2.0.0)",
-    "toml (>=0.10.2,<0.11.0)"
+    "toml (>=0.10.2,<0.11.0)",
+    "tomli-w (>=1.2.0,<2.0.0)"
 ]
 
 [tool.poetry]

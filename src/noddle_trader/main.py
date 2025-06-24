@@ -21,12 +21,12 @@ def cargar_configuracion():
         
         # --- Parámetros de Análisis ---
         "SYMBOL": "EURUSD",
-        "VELAS_M15": 15,                 # Analizar el M15 de las últimas 7.5 horas
-        "VELAS_M1": 7,                  # Ventana en M1 para buscar FVG
+        "VELAS_M15": 100,                 # Analizar el M15 de las últimas 7.5 horas
+        "VELAS_M1": 100,                  # Ventana en M1 para buscar FVG
         "USAR_FILTRO_SESION": False,      # True para operar solo en sesión NY, False para operar 24h
         
         # --- Parámetros de Ejecución ---
-        "INTERVALO_ANALISIS": 5,        # Chequeo cada 5 segundos
+        "INTERVALO_ANALISIS": 60,        # Chequeo cada 15 segundos
     }
 
 

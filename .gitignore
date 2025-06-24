@@ -17,3 +17,5 @@ dist/
 downloads/
 eggs/
 .eggs/
+src/noddle_trader/__pycache__/strategy.cpython-313.pyc
+src/noddle_trader/__pycache__/*.pyc

@@ -1,0 +1,19 @@
+src/noddle_trader/__pycache__/__init__.cpython-313.pyc
+src/noddle_trader/__pycache__/main.cpython-313.pyc
+src/noddle_trader/__pycache__/strategy.cpython-313.pyc
+src/noddle_trader/__pycache__/
+output/
+*.pyc
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+# C extensions
+*.so
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/

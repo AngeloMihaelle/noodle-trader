@@ -139,6 +139,8 @@ def main():
         modo_tiempo_real(estrategia, config)
 
     finally:
+        estrategia.generar_reporte_analisis()
+        print("🔄 Generando reporte de análisis...")
         data_feed.disconnect()
         print("✅ Conexión MT5 cerrada")
 

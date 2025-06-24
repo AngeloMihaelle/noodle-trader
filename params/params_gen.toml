@@ -1,0 +1,4 @@
+[params_gen]
+symbol = "EURUSD"
+timeframe_m15 = "M15"
+timeframe_m1 = "M1"

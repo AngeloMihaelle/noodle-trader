@@ -1,0 +1,33 @@
+[project]
+name = "noddle-trader"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Angelo Ojeda",email = "angelomihaelle@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<4"
+dependencies = [
+    "pandas (>=2.3.0,<3.0.0)",
+    "numpy (>=2.3.1,<3.0.0)",
+    "matplotlib (>=3.10.3,<4.0.0)",
+    "metatrader5 (>=5.0.5120,<6.0.0)",
+    "tomli (>=2.2.1,<3.0.0)",
+    "python-dotenv (>=1.1.0,<2.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "noddle_trader", from = "src"}]
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.1"
+black = "^25.1.0"
+flake8 = "^7.3.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+noddle-trader = "noddle_trader.main:main"

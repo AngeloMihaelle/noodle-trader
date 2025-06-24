@@ -1,0 +1,9 @@
+[params_ict]
+cuenta_inicial = 10000
+riesgo_por_operacion = 0.02
+rr = 2
+velas_m15 = 3
+velas_m1 = 3
+valor_por_pip = 10
+ny_open = "01:00"
+ny_close = "23:00"

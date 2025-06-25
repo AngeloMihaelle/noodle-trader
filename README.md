@@ -1,4 +1,4 @@
-# Noddle Trader 🚀
+# Noddle Trader 🍜🍜
 
 **Estrategia de Trading Automatizada ICT MSS (Market Structure Shift) con Fair Value Gaps**
 
